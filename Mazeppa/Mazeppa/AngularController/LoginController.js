@@ -3,7 +3,7 @@ MazeppaApp.controller("loginCntrl", function ($scope, loginService) {
 
     $scope.LoginCheck = function () {
         var User = {
-            UserName: $scope.uName,
+            Email: $scope.Email,
             Password: $scope.password
         };
         $("#divLoading").show();
@@ -22,14 +22,14 @@ MazeppaApp.controller("loginCntrl", function ($scope, loginService) {
             else {
                 uID = msg.data;
                 $("#divLoading").hide();
-                window.location.href = "/Login/Index";
+                window.location.href = "/Home/Index";
             }
         });
         debugger;
     }
 
     function clearFields() {
-        $scope.uName = '';
+        $scope.Email = '';
         $scope.uPwd = '';
     }
 

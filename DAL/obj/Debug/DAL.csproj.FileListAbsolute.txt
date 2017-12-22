@@ -8,3 +8,13 @@ E:\MAZEPPA\DAL\bin\Debug\EntityFramework.SqlServer.xml
 E:\MAZEPPA\DAL\obj\Debug\DAL.dll
 E:\MAZEPPA\DAL\obj\Debug\DAL.pdb
 E:\MAZEPPA\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Mazeppa App\Mazeppa-App\DAL\bin\Debug\DAL.dll.config
+E:\Mazeppa App\Mazeppa-App\DAL\bin\Debug\DAL.dll
+E:\Mazeppa App\Mazeppa-App\DAL\bin\Debug\DAL.pdb
+E:\Mazeppa App\Mazeppa-App\DAL\bin\Debug\EntityFramework.dll
+E:\Mazeppa App\Mazeppa-App\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\Mazeppa App\Mazeppa-App\DAL\bin\Debug\EntityFramework.xml
+E:\Mazeppa App\Mazeppa-App\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\Mazeppa App\Mazeppa-App\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Mazeppa App\Mazeppa-App\DAL\obj\Debug\DAL.dll
+E:\Mazeppa App\Mazeppa-App\DAL\obj\Debug\DAL.pdb
