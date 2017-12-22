@@ -178,6 +178,7 @@
     <Content Include="assets\images\logo_dark.png" />
     <Content Include="assets\images\logo_sm.png" />
     <Content Include="assets\images\logo_white_2.png" />
+    <Content Include="assets\images\looder.gif" />
     <Content Include="assets\images\mochagrunge.png" />
     <Content Include="assets\images\saturation.png" />
     <Content Include="assets\images\users\avatar-1.jpg" />

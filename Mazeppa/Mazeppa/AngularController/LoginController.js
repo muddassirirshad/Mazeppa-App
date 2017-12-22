@@ -4,27 +4,25 @@ MazeppaApp.controller("loginCntrl", function ($scope, loginService) {
     $scope.LoginCheck = function () {
         var User = {
             UserName: $scope.uName,
-            Password: $scope.password,
-            RememberMe: $scope.rememberme
+            Password: $scope.password
         };
-        $("#div_loading").show();
+        $("#divLoading").show();
         var getData = loginService.UserLogin(User);
         getData.then(function (msg) {
-
             if (msg.data == "0") {
-                $("#div_loading").hide();
+                $("#divLoading").hide();
+                $("#alertModal").modal('show');
                 $scope.msg = "Password Incorrect !";
-                $(".alert").show();
-                $scope.message = "Invalid UserName or Password";
             }
             else if (msg.data == "-1") {
-                $("#div_loading").hide();
+                $("#divLoading").hide();
+                $("#alertModal").modal('show');
                 $scope.msg = "Username Incorrect !";
             }
             else {
                 uID = msg.data;
-                $("#div_loading").hide();
-                window.location.href = "/news/news-list";
+                $("#divLoading").hide();
+                window.location.href = "/Login/Index";
             }
         });
         debugger;
@@ -36,4 +34,3 @@ MazeppaApp.controller("loginCntrl", function ($scope, loginService) {
     }
 
 });
-
