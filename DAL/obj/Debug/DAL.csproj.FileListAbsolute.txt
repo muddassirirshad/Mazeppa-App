@@ -1,0 +1,10 @@
+E:\MAZEPPA\DAL\bin\Debug\DAL.dll.config
+E:\MAZEPPA\DAL\bin\Debug\DAL.dll
+E:\MAZEPPA\DAL\bin\Debug\DAL.pdb
+E:\MAZEPPA\DAL\bin\Debug\EntityFramework.dll
+E:\MAZEPPA\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\MAZEPPA\DAL\bin\Debug\EntityFramework.xml
+E:\MAZEPPA\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\MAZEPPA\DAL\obj\Debug\DAL.dll
+E:\MAZEPPA\DAL\obj\Debug\DAL.pdb
+E:\MAZEPPA\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
